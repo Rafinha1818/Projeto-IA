@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 20px;
+}
+
+.grid-item {
+    background: #cf56da;
+    padding: 20px;
+    text-align: center;
+    min-height: 200px;
+}
+
+.destaque {
+    grid-column: span 2;
+    background: #444;
+    color: white;
+    font-size: 1.5rem;
+    min-height: 300px;
+}
+
+.imagem img {
+    width: 100%;
+    height: auto;
+}
+
+.Bloco {
+    display: block;
+    margin: 8px;
+}
+
+.botao-login {
+    width: 100%;
+    padding: 10px;
+    background-color: #000000;
+    color: rgb(81, 52, 211);
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
